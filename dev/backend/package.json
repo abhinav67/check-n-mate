@@ -1,0 +1,20 @@
+{
+  "name": "checknmate",
+  "version": "1.0.0",
+  "description": "groupmanager",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chinmay Gupta",
+  "license": "MIT",
+  "engines":{
+   "node": "0.10.x"
+   }
+  "devDependencies": {
+    "bcrypt": "^0.8.0",
+    "mongojs": "^0.14.0",
+    "morgan": "^1.2.3",
+    "restify": "^2.8.2"
+  }
+}

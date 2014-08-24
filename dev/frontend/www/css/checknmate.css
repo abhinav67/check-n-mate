@@ -1,0 +1,21 @@
+/* line 2, ../scss/checknmate.scss */
+body {
+  font-family: arial;
+  font-size: 10px;
+}
+
+/* line 7, ../scss/checknmate.scss */
+.side-menu-header {
+  height: 150px;
+}
+/* line 9, ../scss/checknmate.scss */
+.side-menu-header .title-side-menu {
+  color: white;
+  height: 100px !important;
+  line-height: 100px !important;
+}
+
+/* line 15, ../scss/checknmate.scss */
+.side-menu {
+  top: 101px;
+}
