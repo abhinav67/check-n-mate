@@ -1,11 +1,9 @@
 $wallpaper-color: #25282F;
-body{
-	font-family: arial;
-	font-size: 10px;
-}
+$text-color:#F6F1ED;
 
 .side-menu-header{
 	height: 150px;
+	background-color: transparent;
 	.title-side-menu{
 	color:white;
 	height:100px !important;
@@ -13,6 +11,18 @@ body{
 	}
 }
 .side-menu{
-	top:101px;
+	top:151px;
 }
-
+.list-sidemenu{
+	color: $text-color;
+	background-color: transparent;
+	text-align: center;
+	.list-item-sidemenu{
+		background-color: transparent;
+		border: 0px;
+		padding-left: 0px;
+	}
+}
+.side-menu-container{
+	background-color: $wallpaper-color;
+}
