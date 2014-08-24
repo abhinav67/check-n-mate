@@ -26,3 +26,14 @@ $text-color:#F6F1ED;
 .side-menu-container{
 	background-color: $wallpaper-color;
 }
+.sidemenu-img {
+	border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border: 1px solid #5B5C56;
+    img{
+    	width: 100%;
+    	height:100%;
+    }
+}
