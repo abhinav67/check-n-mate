@@ -1,24 +1,37 @@
 $wallpaper-color: #25282F;
 $text-color:#F6F1ED;
-
+$grey:#6B6E75;
+$checknmate:#4EC464;
 
 .side-menu{
 	top:151px;
 }
+
 .list-sidemenu{
 	color: $text-color;
 	background-color: transparent;
 	text-align: center;
+	margin-top: 5px;
 	.list-item-sidemenu{
 		background-color: transparent;
 		border: 0px;
 		padding-left: 0px;
+		padding: 0px;
+		.list-item-text{
+			width:95px;
+			height: inherit;
+			border-bottom: 1.5px solid $grey;
+			overflow: auto;
+			line-height: 40px;
+			display: inline-block;
+		}
+
 	}
 }
 .side-menu-container{
 	background-color: $wallpaper-color;
 	.side-menu-header{
-		height: 200px;
+		height: 141px;
 		background-color: transparent;
 			.title-side-menu{
 			margin-top: 115px;	
@@ -32,7 +45,28 @@ $text-color:#F6F1ED;
 		background-color: transparent;
 		color:$text-color;
 		height: 60px;
+		padding: 0 23px;
+		.button-item{
+			line-height: 25px;
+			background-color: transparent;
+			border: 0px;
+			color: $grey !important;
+			span{
+				color:$text-color;
+			}
+		}
 	}
+.divider{
+	border-right: 1px solid $grey !important;
+	height: 30px;
+	margin: auto 0;
+}
+.vertical-divider{
+	border-bottom: 1px solid $grey !important;
+	width: 160px;
+	margin: 0 auto;
+}
+
 .sidemenu-img {
 	margin: 0 auto;
 	margin-top: 25px;
