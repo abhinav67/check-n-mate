@@ -1,48 +1,58 @@
-/* line 4, ../scss/checknmate.scss */
-.side-menu-header {
-  height: 150px;
-  background-color: transparent;
-}
-/* line 7, ../scss/checknmate.scss */
-.side-menu-header .title-side-menu {
-  color: white;
-  height: 100px !important;
-  line-height: 100px !important;
-}
-
-/* line 13, ../scss/checknmate.scss */
+/* line 5, ../scss/checknmate.scss */
 .side-menu {
   top: 151px;
 }
 
-/* line 16, ../scss/checknmate.scss */
+/* line 8, ../scss/checknmate.scss */
 .list-sidemenu {
   color: #F6F1ED;
   background-color: transparent;
   text-align: center;
 }
-/* line 20, ../scss/checknmate.scss */
+/* line 12, ../scss/checknmate.scss */
 .list-sidemenu .list-item-sidemenu {
   background-color: transparent;
   border: 0px;
   padding-left: 0px;
 }
 
-/* line 26, ../scss/checknmate.scss */
+/* line 18, ../scss/checknmate.scss */
 .side-menu-container {
   background-color: #25282F;
 }
+/* line 20, ../scss/checknmate.scss */
+.side-menu-container .side-menu-header {
+  height: 200px;
+  background-color: transparent;
+}
+/* line 23, ../scss/checknmate.scss */
+.side-menu-container .side-menu-header .title-side-menu {
+  margin-top: 115px;
+  color: white;
+  height: 25px !important;
+  line-height: 25px !important;
+}
 
-/* line 29, ../scss/checknmate.scss */
+/* line 31, ../scss/checknmate.scss */
+.side-menu-button-bar {
+  background-color: transparent;
+  color: #F6F1ED;
+  height: 60px;
+}
+
+/* line 36, ../scss/checknmate.scss */
 .sidemenu-img {
+  margin: 0 auto;
+  margin-top: 25px;
   border-radius: 50%;
   width: 75px;
   height: 75px;
   background: transparent;
   border: 1px solid #5B5C56;
 }
-/* line 35, ../scss/checknmate.scss */
+/* line 44, ../scss/checknmate.scss */
 .sidemenu-img img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
