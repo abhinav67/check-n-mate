@@ -1,15 +1,7 @@
 $wallpaper-color: #25282F;
 $text-color:#F6F1ED;
 
-.side-menu-header{
-	height: 150px;
-	background-color: transparent;
-	.title-side-menu{
-	color:white;
-	height:100px !important;
-	line-height: 100px !important;
-	}
-}
+
 .side-menu{
 	top:151px;
 }
@@ -25,8 +17,25 @@ $text-color:#F6F1ED;
 }
 .side-menu-container{
 	background-color: $wallpaper-color;
+	.side-menu-header{
+		height: 200px;
+		background-color: transparent;
+			.title-side-menu{
+			margin-top: 115px;	
+			color:white;
+			height:25px !important;
+			line-height: 25px !important;
+			}
+	}
 }
+.side-menu-button-bar{
+		background-color: transparent;
+		color:$text-color;
+		height: 60px;
+	}
 .sidemenu-img {
+	margin: 0 auto;
+	margin-top: 25px;
 	border-radius: 50%;
     width: 75px;
     height: 75px;
@@ -35,5 +44,6 @@ $text-color:#F6F1ED;
     img{
     	width: 100%;
     	height:100%;
+    	border-radius: 50%;
     }
 }
