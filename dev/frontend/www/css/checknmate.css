@@ -1,21 +1,34 @@
-/* line 2, ../scss/checknmate.scss */
-body {
-  font-family: arial;
-  font-size: 10px;
-}
-
-/* line 7, ../scss/checknmate.scss */
+/* line 4, ../scss/checknmate.scss */
 .side-menu-header {
   height: 150px;
+  background-color: transparent;
 }
-/* line 9, ../scss/checknmate.scss */
+/* line 7, ../scss/checknmate.scss */
 .side-menu-header .title-side-menu {
   color: white;
   height: 100px !important;
   line-height: 100px !important;
 }
 
-/* line 15, ../scss/checknmate.scss */
+/* line 13, ../scss/checknmate.scss */
 .side-menu {
-  top: 101px;
+  top: 151px;
+}
+
+/* line 16, ../scss/checknmate.scss */
+.list-sidemenu {
+  color: #F6F1ED;
+  background-color: transparent;
+  text-align: center;
+}
+/* line 20, ../scss/checknmate.scss */
+.list-sidemenu .list-item-sidemenu {
+  background-color: transparent;
+  border: 0px;
+  padding-left: 0px;
+}
+
+/* line 26, ../scss/checknmate.scss */
+.side-menu-container {
+  background-color: #25282F;
 }
