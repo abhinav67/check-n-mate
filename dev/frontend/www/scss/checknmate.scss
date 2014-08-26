@@ -2,7 +2,9 @@ $wallpaper-color: #25282F;
 $text-color:#F6F1ED;
 $grey:#6B6E75;
 $checknmate:#4EC464;
+body{
 
+}
 .side-menu{
 	top:151px;
 }
@@ -34,12 +36,34 @@ $checknmate:#4EC464;
 		height: 141px;
 		background-color: transparent;
 			.title-side-menu{
-			margin-top: 115px;	
-			color:white;
-			height:25px !important;
-			line-height: 25px !important;
+				
+				margin-top: 115px;	
+				color:white;
+				height:25px !important;
+				line-height: 25px !important;
 			}
 	}
+}
+.side-menu-header :before {
+	left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        content: "";
+        position: absolute;
+        background: url(/img/pas.JPG)  no-repeat center center fixed;
+        background-size: cover;
+        z-index: -1; /* Keep the background behind the content */
+        
+        /* don't forget to use the prefixes you need */
+
+         height: 60%; width: 10%; /* Using Glen Maddern's trick /via @mente */
+
+    /* don't forget to use the prefixes you need */
+    transform: scale(12);
+    transform-origin: top left right;
+    
+        -webkit-filter: blur(3px);
 }
 .side-menu-button-bar{
 		background-color: transparent;
@@ -80,4 +104,24 @@ $checknmate:#4EC464;
     	height:100%;
     	border-radius: 50%;
     }
+}
+.home-content
+{
+	background-color: $wallpaper-color;
+}
+
+.home-footer{
+	background-color: black !important;
+	padding: 5px 30px;
+	.myfooter-divs{
+		padding: 3px auto;
+		background-color: transparent;
+		color: $checknmate;
+		border: 0;
+		.button-myfooter{
+			border:0;
+			border-radius: 6px !important;
+			padding: 3px 7px;
+		}
+	}
 }
