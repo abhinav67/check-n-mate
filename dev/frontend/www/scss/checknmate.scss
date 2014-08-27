@@ -51,8 +51,9 @@ body{
         margin-right:auto;
         content: "";
         position: absolute;
-        background: url(/img/pas.JPG)  no-repeat center center fixed;
-        background-size: cover;
+        top:1px;
+        background: url(/img/rohit.jpg)  no-repeat center;
+        background-size: contain;
         z-index: -1; /* Keep the background behind the content */
         
         /* don't forget to use the prefixes you need */
@@ -64,6 +65,7 @@ body{
     transform-origin: top left right;
     
         -webkit-filter: blur(3px);
+        filter: blur (3px);
 }
 .side-menu-button-bar{
 		background-color: transparent;
