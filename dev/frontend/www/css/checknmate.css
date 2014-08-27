@@ -52,8 +52,9 @@
   margin-right: auto;
   content: "";
   position: absolute;
-  background: url(/img/pas.JPG) no-repeat center center fixed;
-  background-size: cover;
+  top: 1px;
+  background: url(/img/rohit.jpg) no-repeat center;
+  background-size: contain;
   z-index: -1;
   /* Keep the background behind the content */
   /* don't forget to use the prefixes you need */
@@ -64,42 +65,43 @@
   transform: scale(12);
   transform-origin: top left right;
   -webkit-filter: blur(3px);
+  filter: blur 3px;
 }
 
-/* line 68, ../scss/checknmate.scss */
+/* line 70, ../scss/checknmate.scss */
 .side-menu-button-bar {
   background-color: transparent;
   color: #F6F1ED;
   height: 60px;
   padding: 0 23px;
 }
-/* line 73, ../scss/checknmate.scss */
+/* line 75, ../scss/checknmate.scss */
 .side-menu-button-bar .button-item {
   line-height: 25px;
   background-color: transparent;
   border: 0px;
   color: #6B6E75 !important;
 }
-/* line 78, ../scss/checknmate.scss */
+/* line 80, ../scss/checknmate.scss */
 .side-menu-button-bar .button-item span {
   color: #F6F1ED;
 }
 
-/* line 83, ../scss/checknmate.scss */
+/* line 85, ../scss/checknmate.scss */
 .divider {
   border-right: 1px solid #6B6E75 !important;
   height: 30px;
   margin: auto 0;
 }
 
-/* line 88, ../scss/checknmate.scss */
+/* line 90, ../scss/checknmate.scss */
 .vertical-divider {
   border-bottom: 1px solid #6B6E75 !important;
   width: 160px;
   margin: 0 auto;
 }
 
-/* line 94, ../scss/checknmate.scss */
+/* line 96, ../scss/checknmate.scss */
 .sidemenu-img {
   margin: 0 auto;
   margin-top: 25px;
@@ -109,31 +111,31 @@
   background: transparent;
   border: 1px solid #5B5C56;
 }
-/* line 102, ../scss/checknmate.scss */
+/* line 104, ../scss/checknmate.scss */
 .sidemenu-img img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
 
-/* line 108, ../scss/checknmate.scss */
+/* line 110, ../scss/checknmate.scss */
 .home-content {
   background-color: #25282F;
 }
 
-/* line 113, ../scss/checknmate.scss */
+/* line 115, ../scss/checknmate.scss */
 .home-footer {
   background-color: black !important;
   padding: 5px 30px;
 }
-/* line 116, ../scss/checknmate.scss */
+/* line 118, ../scss/checknmate.scss */
 .home-footer .myfooter-divs {
   padding: 3px auto;
   background-color: transparent;
   color: #4EC464;
   border: 0;
 }
-/* line 121, ../scss/checknmate.scss */
+/* line 123, ../scss/checknmate.scss */
 .home-footer .myfooter-divs .button-myfooter {
   border: 0;
   border-radius: 6px !important;
