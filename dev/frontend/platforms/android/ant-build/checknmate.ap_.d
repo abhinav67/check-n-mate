@@ -111,6 +111,7 @@
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/css/style.css \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/img/pas.JPG \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/img/ionic.png \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/img/rohit.jpg \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/plugins/com.ionic.keyboard \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/plugins/org.apache.cordova.device \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/plugins/com.ionic.keyboard/www \

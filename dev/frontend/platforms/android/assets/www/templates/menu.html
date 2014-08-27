@@ -1,31 +1,56 @@
 <ion-side-menus>
 
-  <ion-pane ion-side-menu-content>
-    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
-      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
-    </ion-nav-bar>
-    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
-  </ion-pane>
+    <ion-pane ion-side-menu-content>
+        <ion-nav-bar class="bar-dark nav-title-slide-ios7">
+            <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+    </ion-pane>
 
-  <ion-side-menu side="left">
-    <header class="bar bar-header bar-stable">
-      <h1 class="title">Left</h1>
-    </header>
-    <ion-content class="has-header">
-      <ion-list>
-        <ion-item nav-clear menu-close ng-click="login()">
-          Login
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/browse">
-          Browse
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
-        </ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-side-menu>
+    <ion-side-menu side="left" class="side-menu-container">
+        <header class="bar side-menu-header">
+            <div class="sidemenu-img">
+              <img src="img/rohit.jpg">
+            </div>
+            <h1 class="title title-side-menu">Chinmay Gupta</h1>
+           
+        </header>
+
+        <ion-content class="has-header side-menu">
+        <div class="button-bar side-menu-button-bar">
+            <a class="button button-item ">Lene
+                    <br><span>1000</span>
+            </a>
+            <div class="divider"></div>
+            <a class="button button-item">Dene
+            <br><span>1000</span>
+            </a>
+        </div>
+        <div  class="vertical-divider"></div>
+            <div class="list list-sidemenu">
+                <a class="item item-icon-left list-item-sidemenu" href="#">
+                   <div class="list-item-text"> 
+                    Friends
+                    </div>
+                </a>
+
+                <a class="item item-icon-left list-item-sidemenu" href="#">
+                    <div class="list-item-text"> 
+                    Groups
+                    </div>
+                </a>
+
+                <a class="item item-icon-left list-item-sidemenu" href="#">
+                    <div class="list-item-text"> 
+                    Settings
+                    </div>
+                </a>
+                <a class="item item-icon-left list-item-sidemenu" href="#">
+                    <div class="list-item-text"> 
+                    Delete
+                    </div>
+                </a>
+            </div>
+        </ion-content>
+    </ion-side-menu>
 </ion-side-menus>
