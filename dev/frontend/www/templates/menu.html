@@ -2,7 +2,7 @@
 
     <ion-pane ion-side-menu-content>
         <ion-nav-bar class="bar-dark nav-title-slide-ios7">
-            <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+            <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i></ion-nav-back-button>
         </ion-nav-bar>
         <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
     </ion-pane>
@@ -28,26 +28,30 @@
         </div>
         <div  class="vertical-divider"></div>
             <div class="list list-sidemenu">
-                <a class="item item-icon-left list-item-sidemenu" href="#">
+                <a class="item item-icon-left list-item-sidemenu menu-close" href="#/app/home">
                    <div class="list-item-text"> 
-                    Friends
+                    Home
                     </div>
                 </a>
 
-                <a class="item item-icon-left list-item-sidemenu" href="#">
+                <a class="item item-icon-left list-item-sidemenu menu-close" href="#/app/create-group">
                     <div class="list-item-text"> 
-                    Groups
+                    Create Group
                     </div>
                 </a>
-
-                <a class="item item-icon-left list-item-sidemenu" href="#">
+                <a class="item item-icon-left list-item-sidemenu menu-close" href="#/app/recent-activity">
+                    <div class="list-item-text"> 
+                    Recent Activity
+                    </div>
+                </a>
+                <a class="item item-icon-left list-item-sidemenu menu-close" href="#/app/invite">
+                    <div class="list-item-text"> 
+                    Invite Friends
+                    </div>
+                </a>
+                <a class="item item-icon-left list-item-sidemenu menu-close" href="#/app/settings">
                     <div class="list-item-text"> 
                     Settings
-                    </div>
-                </a>
-                <a class="item item-icon-left list-item-sidemenu" href="#">
-                    <div class="list-item-text"> 
-                    Delete
                     </div>
                 </a>
             </div>
