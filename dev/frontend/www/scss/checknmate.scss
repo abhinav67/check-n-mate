@@ -52,13 +52,11 @@ body{
         content: "";
         position: absolute;
         top:1px;
-        background: url(/img/rohit.jpg)  no-repeat center;
+        background: url(/img/pas.JPG)  no-repeat center;
         background-size: contain;
-        z-index: -1; /* Keep the background behind the content */
-        
-        /* don't forget to use the prefixes you need */
-
-         height: 60%; width: 10%; /* Using Glen Maddern's trick /via @mente */
+        z-index: -1; 
+         height: 23px; 
+         width: 10%; /* Using Glen Maddern's trick /via @mente */
 
     /* don't forget to use the prefixes you need */
     transform: scale(12);
