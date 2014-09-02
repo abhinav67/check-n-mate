@@ -148,10 +148,9 @@
   padding: 3px 7px;
 }
 
-<<<<<<< HEAD
 /* line 125, ../scss/checknmate.scss */
 .uandme-content {
-  background-color: #25282f;
+  background-color: #25282F;
 }
 /* line 127, ../scss/checknmate.scss */
 .uandme-content .uandme-img {
@@ -189,10 +188,5 @@
 }
 /* line 154, ../scss/checknmate.scss */
 .uandme-content .uandme-list .uandme-listcolor h2 {
-  color: #4ec464;
-=======
-/* line 121, ../scss/checknmate.scss */
-.select-content {
-  left: 76px;
->>>>>>> 84b71dcea1496cfa5a42a7d8e89cabf8fd65901e
+  color: #4EC464;
 }
