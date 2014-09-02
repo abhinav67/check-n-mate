@@ -14,7 +14,7 @@ angular.module('starter.controllers', [])
   // Triggered in the login modal to close it
   $scope.closeLogin = function() {
     $scope.modal.hide();
-  },
+  };
 
   // Open the login modal
   $scope.login = function() {
@@ -39,11 +39,10 @@ angular.module('starter.controllers', [])
     { title: 'Chill', id: 2 },
     { title: 'Dubstep', id: 3 },
     { title: 'Indie', id: 4 },
-    { title: 'Indicace', id: 7 },
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
+});

@@ -19,7 +19,7 @@
 }
 /* line 18, ../scss/checknmate.scss */
 .list-sidemenu .list-item-sidemenu .list-item-text {
-  width: 95px;
+  width: 115px;
   height: inherit;
   border-bottom: 1.5px solid #6B6E75;
   overflow: auto;
@@ -141,4 +141,9 @@
   border: 0;
   border-radius: 6px !important;
   padding: 3px 7px;
+}
+
+/* line 121, ../scss/checknmate.scss */
+.select-content {
+  left: 76px;
 }
