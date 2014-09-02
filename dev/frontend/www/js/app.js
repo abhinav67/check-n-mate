@@ -38,6 +38,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.uandme', {
+      url: "/uandme",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/uandme.html"
+        }
+      }
+    })
 
     .state('app.create-group', {
       url: "/create-group",
@@ -72,6 +80,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('/app/uandme');
 });
 

@@ -121,10 +121,12 @@
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/js/controllers.js \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/js/app.js \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/scss/checknmate.scss \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/home.html \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/menu.html \
-/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/search.html \
-/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/playlist.html \
-/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/browse.html \
-/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/playlists.html \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/settings.html \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/friends.html \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/recent-activity.html \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/create-group.html \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/login.html \
+/home/chinmay/check-n-mate/dev/frontend/platforms/android/assets/www/templates/invite.html \
 /home/chinmay/check-n-mate/dev/frontend/platforms/android/ant-build/AndroidManifest.xml \
