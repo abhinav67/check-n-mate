@@ -10,7 +10,7 @@
 
 /* line 12, ../scss/checknmate.scss */
 .list-sidemenu {
-  color: #f6f1ed;
+  color: #F6F1ED;
   background-color: transparent;
   text-align: center;
   margin-top: 5px;
@@ -24,9 +24,9 @@
 }
 /* line 22, ../scss/checknmate.scss */
 .list-sidemenu .list-item-sidemenu .list-item-text {
-  width: 95px;
+  width: 115px;
   height: inherit;
-  border-bottom: 1.5px solid #6b6e75;
+  border-bottom: 1.5px solid #6B6E75;
   overflow: auto;
   line-height: 40px;
   display: inline-block;
@@ -34,7 +34,7 @@
 
 /* line 32, ../scss/checknmate.scss */
 .side-menu-container {
-  background-color: #25282f;
+  background-color: #25282F;
 }
 /* line 34, ../scss/checknmate.scss */
 .side-menu-container .side-menu-header {
@@ -77,7 +77,7 @@
 /* line 68, ../scss/checknmate.scss */
 .side-menu-button-bar {
   background-color: transparent;
-  color: #f6f1ed;
+  color: #F6F1ED;
   height: 60px;
   padding: 0 23px;
 }
@@ -86,23 +86,23 @@
   line-height: 25px;
   background-color: transparent;
   border: 0px;
-  color: #6b6e75 !important;
+  color: #6B6E75 !important;
 }
 /* line 78, ../scss/checknmate.scss */
 .side-menu-button-bar .button-item span {
-  color: #f6f1ed;
+  color: #F6F1ED;
 }
 
 /* line 83, ../scss/checknmate.scss */
 .divider {
-  border-right: 1px solid #6b6e75 !important;
+  border-right: 1px solid #6B6E75 !important;
   height: 30px;
   margin: auto 0;
 }
 
 /* line 88, ../scss/checknmate.scss */
 .vertical-divider {
-  border-bottom: 1px solid #6b6e75 !important;
+  border-bottom: 1px solid #6B6E75 !important;
   width: 160px;
   margin: 0 auto;
 }
@@ -126,7 +126,7 @@
 
 /* line 107, ../scss/checknmate.scss */
 .home-content {
-  background-color: #25282f;
+  background-color: #25282F;
 }
 
 /* line 110, ../scss/checknmate.scss */
@@ -138,7 +138,7 @@
 .home-footer .myfooter-divs {
   padding: 3px auto;
   background-color: transparent;
-  color: #4ec464;
+  color: #4EC464;
   border: 0;
 }
 /* line 118, ../scss/checknmate.scss */
@@ -148,6 +148,7 @@
   padding: 3px 7px;
 }
 
+<<<<<<< HEAD
 /* line 125, ../scss/checknmate.scss */
 .uandme-content {
   background-color: #25282f;
@@ -189,4 +190,9 @@
 /* line 154, ../scss/checknmate.scss */
 .uandme-content .uandme-list .uandme-listcolor h2 {
   color: #4ec464;
+=======
+/* line 121, ../scss/checknmate.scss */
+.select-content {
+  left: 76px;
+>>>>>>> 84b71dcea1496cfa5a42a7d8e89cabf8fd65901e
 }
