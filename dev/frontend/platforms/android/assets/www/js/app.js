@@ -15,7 +15,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
     if(window.StatusBar) {
       // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
+      StatusBar.hide();
     }
   });
 })
@@ -35,6 +35,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/home.html"
+        }
+      }
+    })
+    .state('app.uandme', {
+      url: "/uandme",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/uandme.html"
         }
       }
     })
@@ -72,6 +80,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('/app/uandme');
 });
 

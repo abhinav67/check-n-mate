@@ -1,9 +1,13 @@
 $wallpaper-color:#25282F;
- $text-color:#F6F1ED;
- $grey:#6B6E75;
- $checknmate:#4EC464;
- body {} .side-menu {
+$text-color:#F6F1ED;
+$grey:#6B6E75;
+$checknmate:#4EC464;
+$red: #C44E4E;
+body {} .side-menu {
     top: 151px;
+}
+.dark{
+    background-color: rgb(20, 20, 20) !important;
 }
 .list-sidemenu {
     color: $text-color;
@@ -16,7 +20,7 @@ $wallpaper-color:#25282F;
         padding-left: 0px;
         padding: 0px;
         .list-item-text {
-            width: 95px;
+            width: 115px;
             height: inherit;
             border-bottom: 1.5px solid $grey;
             overflow: auto;
@@ -93,7 +97,7 @@ $wallpaper-color:#25282F;
     width: 75px;
     height: 75px;
     background: transparent;
-    border: 1px solid #5B5C56;
+    border: 2px solid white;
     img {
         width: 100%;
         height: 100%;
@@ -104,7 +108,7 @@ $wallpaper-color:#25282F;
     background-color: $wallpaper-color;
 }
 .home-footer {
-    background-color: black !important;
+    background-color: rgb(20, 20, 20) !important;
     padding: 5px 30px;
     .myfooter-divs {
         padding: 3px auto;
@@ -115,6 +119,41 @@ $wallpaper-color:#25282F;
             border: 0;
             border-radius: 6px !important;
             padding: 3px 7px;
+        }
+    }
+}
+.uandme-content {
+    background-color: $wallpaper-color;
+    .uandme-img {
+        margin: 0 auto;
+        margin-top: 25px;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        background: transparent;
+        border: 2px solid white;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    .uandme-list {
+        background-color: transparent !important;
+        .uandme-listcolor {
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid black;
+            min-height:50px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            img {
+                border-radius: 50% !important;
+                top: 8px;
+            }
+            h2{
+                color: $checknmate;
+            }
         }
     }
 }
